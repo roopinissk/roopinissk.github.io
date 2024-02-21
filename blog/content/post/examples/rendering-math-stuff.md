@@ -4,6 +4,7 @@ title: Rendering Math Stuff
 date: 2023-08-03
 description: How to configure Math Typesetting in heyo
 math: true
+draft: true
 tags: 
     - theme
 categories:

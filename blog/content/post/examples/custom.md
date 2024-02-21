@@ -2,7 +2,8 @@
 author: Lucas David Vadilho
 title: Custom JavaScript and CSS
 date: 2023-12-11
-description: 
+description:
+draft: true
 tags: 
     - theme
     - customization

@@ -3,6 +3,7 @@ author: Lucas David Vadilho
 title: Badges
 date: 2023-08-01
 description: How to add badges to your posts
+draft: true
 tags: 
     - theme
     - shortcodes
