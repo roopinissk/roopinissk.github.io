@@ -18,7 +18,7 @@ paginate = 10
 
 [Languages]
   [Languages.en]
-    contentDir = "content/en"
+    contentDir = "content"
     weight = 1
     LanguageName = "en"
 
@@ -98,24 +98,6 @@ url = "/post/"
 
 [[Languages.en.menu.main]]
 name = "About"
-weight = 300
-identifier = "about"
-url = "/about/"
-
-[[Languages.pt-br.menu.main]]
-name = "Home"
-identifier = "home"
-weight = 100
-url = "/pt-br/"
-
-[[Languages.pt-br.menu.main]]
-name = "Blog"
-weight = 200
-identifier = "posts"
-url = "/post/"
-
-[[Languages.pt-br.menu.main]]
-name = "Sobre"
 weight = 300
 identifier = "about"
 url = "/about/"

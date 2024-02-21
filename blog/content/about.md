@@ -3,6 +3,13 @@ author: Lucas David Vadilho
 title: "About"
 description: "About heyo"
 date: 2023-08-01
+tags:
+  - theme
+  - customization
+  - JS
+  - CSS
+categories:
+  - heyo
 ---
 
 {{< theme >}} is a responsive, minimalist, and pretty theme built for [hugo](https://gohugo.io/), based on Alexander Bilz's [Anatole](https://github.com/lxndrblz/anatole).

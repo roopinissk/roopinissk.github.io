@@ -5,6 +5,7 @@ date: 2023-08-05
 description: How to add badges to your posts
 categories: ["heyo"]
 tags: ["theme", "shortcodes"]
+draft: true
 ---
 
 Check it out, {{< theme >}} has callouts now!

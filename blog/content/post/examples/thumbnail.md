@@ -1,6 +1,7 @@
 ---
 author: Lucas David Vadilho
 title: Post Thumbnail
+draft: true
 date: 2023-08-06
 thumbnail:
     src: 'images/thumbnail.jpg'

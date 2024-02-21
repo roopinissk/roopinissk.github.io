@@ -1,6 +1,7 @@
 ---
 author: Lucas David Vadilho
 title: Sketches!
+draft: true
 date: 2023-08-07
 badges:
     p5:
