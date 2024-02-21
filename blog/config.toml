@@ -42,8 +42,7 @@ paginate = 10
 # Sketch settings
 # you can also enable or disable it per page
 [params.sketch] 
-  enable = true 
-  displayOptions = true
+  enable = true
   # Graph, Digital Rain, or Circles
   use = "Graph"
   # JSON that is passed to the sketch constructor
