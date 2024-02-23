@@ -25,7 +25,7 @@ paginate = 10
 [params.author]
   name = "Suriya Ganesh"
   email = "suriyaganesh097@gmail.com"
-
+:
 [params]
   title = "We're Roopini and Suriya"
   description = "We Share what we are thinking about"
