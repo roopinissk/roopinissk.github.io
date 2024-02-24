@@ -2,13 +2,14 @@
 <div class="post">
     {{ with .Params.thumbnail }}
     <div class="thumbnail" style="box-shadow: var(--box-shadow); height: {{ .height }};">
-        <img src={{ .src | absURL }} style="object-position: {{ .object_position }};" title={{ .alt | default "thumbnail" }} alt={{ .alt | default "thumbnail" }} loading="lazy">
+        <img src={{ .src | absURL }} style="object-position: {{ .object_position }};" title={{ .alt | default
+        "thumbnail" }} alt={{ .alt | default "thumbnail" }} loading="lazy">
     </div>
     {{ end }}
     <div class="post-title">
         <h1>{{ .Title }}</h1>
         {{ if eq .Type "post"}}
-            {{ partial "post-header" . }}
+        {{ partial "post-header" . }}
         {{ end }}
     </div>
     <div class="post-content">
@@ -20,12 +21,27 @@
             {{ with .Page.Params.Tags }}{{ partial "taxonomy/tags.html" . }}{{ end }}
         </div>
         {{ partial "list-badges" . }}
+
+<!--        Author info-->
+        {{ range .Param "authors" }}
+        {{ $name := . }}
+        {{ $path := printf "/%s/%s" "authors" ($name | urlize) }}
+        {{ with $.Site.GetPage $path }}
+        <h2>{{ .Params.name }}</h2>
+
+        <div style="width: 200px; height: 200px; border-radius: 50%; overflow: hidden; display: block; margin: 0 auto;">
+            <img src="/img{{ $path }}.jpg" alt="Roopini image" style="width: 100%; height: auto;">
+        </div>
+        <p>{{ .Params.bio }}</p>
+        <p><a href="https://twitter.com/{{ .Params.twitter }}">Twitter</a></p>
+        {{ end }}
+        {{ end }}
     </div>
     {{ if eq .Type "post"}}
-        {{ if .Site.DisqusShortname }}
-        <h2>{{ i18n "comments" }}</h2>
-            {{ template "_internal/disqus.html" . }}
-        {{ end }}
+    {{ if .Site.DisqusShortname }}
+    <h2>{{ i18n "comments" }}</h2>
+    {{ template "_internal/disqus.html" . }}
+    {{ end }}
     {{ end }}
 </div>
 {{ end }}
