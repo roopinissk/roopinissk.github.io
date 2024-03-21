@@ -30,10 +30,16 @@
         <h2>{{ .Params.name }}</h2>
 
         <div style="width: 200px; height: 200px; border-radius: 50%; overflow: hidden; display: block; margin: 0 auto;">
-            <img src="/img{{ $path }}.jpg" alt="Roopini image" style="width: 100%; height: auto;">
+            <img src="/img{{ $path }}.jpg" alt="Author image" style="width: 100%; height: auto;">
         </div>
         <p>{{ .Params.bio }}</p>
-        <p><a href="https://twitter.com/{{ .Params.twitter }}">Twitter</a></p>
+        {{ if .Params.socials }}
+        {{ range .Params.socials }}
+            {{range $key, $value := .}}
+            <p><a href="{{$value}}">{{$key}}</a></p>
+            {{end}}
+        {{ end }}
+        {{ end }}
         {{ end }}
         {{ end }}
     </div>
