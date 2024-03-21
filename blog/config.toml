@@ -64,17 +64,17 @@ paginate = 10
 [[params.socialIcons]]
 icon = "fab fa-linkedin" # Font-awesome icon
 title = "Linkedin"
-url = "https://linkedin.com/"
+url = "https://linkedin.com/suriya-ganesh"
 
 [[params.socialIcons]]
 icon = "fab fa-github"
 title = "GitHub"
-url = "https://github.com/LucasVadilho/heyo-hugo-theme"
+url = "https://github.com/suriya-ganesh"
 
-[[params.socialIcons]]
-icon = "fab fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/"
+##[[params.socialIcons]]
+##icon = "fab fa-instagram"
+##title = "instagram"
+##url = "https://www.instagram.com/"
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"

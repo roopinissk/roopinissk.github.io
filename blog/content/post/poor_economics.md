@@ -1,6 +1,6 @@
 ---
 title: Poor Economics
-date: 2023-12-03
+date: 2024-03-12
 description: You are never really rich just because you have a job and an education.
 authors: ["Roopini"]
 tags:
