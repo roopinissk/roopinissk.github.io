@@ -56,18 +56,18 @@ jobs:
         run: |
           cd blog && hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" && mv ./public ../public
-            
+            --baseURL "https://rubywoo.cc"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./blog/public
 
   # Deployment job
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: "rubywoo.cc"
     runs-on: ubuntu-latest
     needs: build
     steps:

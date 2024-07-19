@@ -5,6 +5,7 @@ description: You are never really rich just because you have a job and an educat
 authors: ["Roopini"]
 tags:
   - thoughts
+  - books 
 ---
 Growing up in a low income household. 
 

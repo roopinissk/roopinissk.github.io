@@ -1,5 +1,5 @@
-title = "Bytes and Biomes"
-theme = "../../../BytesNBiomes.github.io"
+title = "Ruby's Blog"
+theme = "../../../roopinissk.github.io"
 baseURL = "/"
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -26,14 +26,14 @@ paginate = 10
   name = "Suriya Ganesh"
   email = "suriyaganesh097@gmail.com"
 [params]
-  title = "We're Roopini and Suriya"
-  description = "We Share what we are thinking about"
-  profilePicture = "images/profile.png"
+  title = "Ruby's Blog"
+  description = "I share my thoughts on Genetics, programming, and life."
+  profilePicture = "images/roopini.jpeg"
   favicon = "favicons/"
   customCss = []
   customJs = []
-  displayMode = "dark"
-  images = ['images/profile.png']
+  displayMode = "light"
+  images = ['images/roopini.jpeg']
 
 [taxonomies]
   series = 'series'
