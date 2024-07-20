@@ -23,8 +23,8 @@ paginate = 10
     LanguageName = "en"
 
 [params.author]
-  name = "Suriya Ganesh"
-  email = "suriyaganesh097@gmail.com"
+  name = "Roopini Sathia Sai Kumar"
+  email = "roopinissk@gmail.com"
 [params]
   title = "Ruby's Blog"
   description = "I share my thoughts on Genetics, programming, and life."
@@ -64,22 +64,22 @@ paginate = 10
 [[params.socialIcons]]
 icon = "fab fa-linkedin" # Font-awesome icon
 title = "Linkedin"
-url = "https://linkedin.com/suriya-ganesh"
+url = "https://www.linkedin.com/in/roopini-ssk/"
 
 [[params.socialIcons]]
 icon = "fab fa-github"
 title = "GitHub"
-url = "https://github.com/suriya-ganesh"
+url = "https://github.com/roopinissk"
 
 ##[[params.socialIcons]]
 ##icon = "fab fa-instagram"
 ##title = "instagram"
-##url = "https://www.instagram.com/"
+##url = "https://www.instagram.com/roopini0121/"
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:suriyaganesh097@gmail.com"
+url = "mailto:roopinissk@gmail.com"
 
 # Menu items
 [menu]
@@ -96,8 +96,14 @@ identifier = "posts"
 url = "/post/"
 
 [[Languages.en.menu.main]]
-name = "About"
+name = "Art"
 weight = 300
+identifier = "art"
+url = "/art/"
+
+[[Languages.en.menu.main]]
+name = "About"
+weight = 400
 identifier = "about"
 url = "/about/"
 

@@ -1,4 +1,4 @@
----
+
 title: Poor Economics
 date: 2024-03-12
 description: You are never really rich just because you have a job and an education.
@@ -6,7 +6,6 @@ authors: ["Roopini"]
 tags:
   - thoughts
   - books 
----
 Growing up in a low income household. 
 
 “Poverty is not just a lack of money; it is not having the capability to realize one's full potential as a human being”
