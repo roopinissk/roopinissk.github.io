@@ -117,7 +117,7 @@ badges:
         status: status
         label: label
         color: pink
-        label_color: 000
+        label_color: 000c
         icon: awesome
         url: https://badgen.net/
 ```
