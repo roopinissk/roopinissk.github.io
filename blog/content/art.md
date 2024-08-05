@@ -134,3 +134,7 @@ tags:
 
 
 ![my art work](/images/art-rewritten/42.jpg)
+
+![my art work](/images/art-rewritten/spiderman.jpg)
+
+![my art work](/images/art-rewritten/gwen_spiderman.jpg)
