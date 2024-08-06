@@ -1,5 +1,5 @@
 ---
-title: I build an ML model!!! (well, sort of.)
+title: I built an ML model!!! (well, sort of.)
 date: 2024-08-06
 description: Learning Pytorch
 authors: ["roopini"]
