@@ -1,6 +1,6 @@
 ---
 title: I built an ML model!!! (well, sort of.) (2)
-date: 2024-08-06
+date: 2024-08-07
 description: Learning Pytorch
 authors: ["roopini"]
 tags:
