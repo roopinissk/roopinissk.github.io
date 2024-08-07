@@ -4,7 +4,8 @@ date: 2024-08-07
 description: Learning Pytorch
 authors: ["roopini"]
 tags:
-  - #Pytorch
+  - Pytorch
+  - ML
 ---
  Continued from my previous blog
 
