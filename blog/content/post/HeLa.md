@@ -9,7 +9,7 @@ tags:
   - ethics
 ---
 
-I got to handle HeLa cells during my undergradute, a controversial human cell line. The immortal life of Henrietta Lacks is by far one of the most powerful, content rich books I've ever read in my life. I regret not reading it earlier.
+I got to handle HeLa cells during my undergradute, the most controversial human cell line. Ever since then, I've been wanting to know the history behind the cells. The immortal life of Henrietta Lacks is by far one of the most powerful, content rich books I've ever read in my life. I regret not reading it earlier.
 
 
 HeLa cells are the first ever human cancer cell line. What makes them so great is their ability to divide indefinitely outside the human body. They came form the cervical cancer of a person named Henrietta Lacks. HeLa cells were vital in so many important discoveries such as polio vaccine, telomerase, HPV linked to cervical cancer few of many. The book is not just about her and her family, its about how the scientific society functions as a whole. The book talks about eugenics, the world war, Tuskegee study, slavery of black people and how clinicians took laws in their hands to decide what is best and what is not for a certain group of people. 
