@@ -40,17 +40,17 @@ For example we can group these balls into their colors (image 3) and plot them o
 Why is this helpful? 
 Notice that we had 11 balls in image 1, instead of having them as 11 separate data points, we could not reduce it down to just 3. While also keeping its information. In this case, color of the balls. 
 
-1. Principle Component Analysis 
+### 1. Principle Component Analysis
 
 In PCA, the above examples apply, but instead of just looking at colors,(or other similarities) it is a more mathematical approach of finding similarities or differences in the data point. The common term used is variance. The axes in this is termed as principle components (PCs) and the data points are plotted across these PCs. Now why are these axes given special names you may wonder. For that, watch this quick [video](https://www.youtube.com/watch?v=PFDu9oVAE-g&t=116s) on eigenvalues and eigenvectors. 
 
-2. t-Distributed Stochastic Neighbor Embedding
+### 2. t-Distributed Stochastic Neighbor Embedding
 
 The idea of this is similar, mapping high dimensional data to lower dimension still holding important information about the data points. It does so by maintaining the similarities and differences of its neighboring data points. 
 
-In t-SNE, the similaritiy between data points is created by taking a gaussian distribution of the other points around it. The probability distribution is calculated for each of the data point in space. Look at Image 5: For the yellow ball (x_1), distances to other points are modeled using a Gaussian distribution centered at x_1. The probability of another point x_2 being close to x_1 is computed as  P(2|1) , meaning how likely x_2 is to be a neighbor of x_1. But, this probability is not necessarily symmetric— P(2|1) \neq P(1|2) . To correct this, t-SNE symmetrizes the probabilities by computing:
+In t-SNE, the similaritiy between data points is created by taking a gaussian distribution of the other points around it. The probability distribution is calculated for each of the data point in space. Look at Image 5: For the yellow ball (x_1), distances to other points are modeled using a Gaussian distribution centered at x_1. The probability of another point x_2 being close to x_1 is computed as  P(2|1) , meaning how likely x_2 is to be a neighbor of x_1. But, this probability is not necessarily symmetric— $P(2|1) \neq P(1|2)$ . To correct this, t-SNE symmetrizes the probabilities by computing:
 
-P_{12} = \frac{P(2|1) + P(1|2)}{2}
+$P_{12} = \frac{P(2|1) + P(1|2)}{2}$
 
 ![Image 5](/images/cluster/img5.png)
 
@@ -61,7 +61,7 @@ If this does the job similar to PCA then what does t-SNE offer differently?t-SNE
 
 ![Image 6](/images/cluster/img6.png)
 
-3. Uniform Manifold Approximation and Projection
+### 3. Uniform Manifold Approximation and Projection
 Instead of just looking at distances like PCA or Gaussian probability distributions like t-SNE, UMAP builds a “neighborhood graph”.
 
 For each ball (x_1), UMAP looks at its nearest neighbors (the closest balls around it) and assigns a probability of connection. Unlike t-SNE, which treats all points equally, UMAP allows farther points to have a weaker connection instead of forcing probability distributions on all pairs.
