@@ -16,7 +16,7 @@ The signals secreted by the cells are called ligands, which are small molecules 
 
 The function of the ligand can vary. It can be activators, inhibitors, signalling receptor, and neurotransmitters.
 
-CellPhoneDB is a repository of ligand-receptor interacting pairs. Through this repo, computaional approach to identify biologically relevant ligand-receptor interaction. 
+CellPhoneDB is a repository of ligand-receptor interacting pairs. Through this repo, a computaional approach to identify biologically relevant ligand-receptor interaction can be done. 
 
 This tool provides
 1. expression analysis
