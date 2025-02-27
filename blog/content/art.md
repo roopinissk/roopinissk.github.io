@@ -6,6 +6,8 @@ tags:
   - sketch
   - digital art
 ---
+![my art work](/images/art-rewritten/siva.jpg)
+
 ![my art work](/images/art-rewritten/nyc.jpg)
 
 
