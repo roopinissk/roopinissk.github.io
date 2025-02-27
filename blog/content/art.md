@@ -10,6 +10,9 @@ tags:
 
 ![my art work](/images/art-rewritten/nyc.jpg)
 
+![my art work](/images/art-rewritten/spiderman.jpg)
+
+![my art work](/images/art-rewritten/gwen_spiderman.jpg)
 
 ![my art work](/images/art-rewritten/0.jpg)
 
@@ -138,7 +141,3 @@ tags:
 
 
 ![my art work](/images/art-rewritten/42.jpg)
-
-![my art work](/images/art-rewritten/spiderman.jpg)
-
-![my art work](/images/art-rewritten/gwen_spiderman.jpg)
