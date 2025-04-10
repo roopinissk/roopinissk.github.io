@@ -4,7 +4,6 @@ title: "👋 Hi, I’m Ruby (aka Roopini) — Welcome to my corner on the web!"
 description: "Roopini is so awesome, she needs an about page."
 date: 2023-08-01
 tags:
-  - Intro
 ---
 
 ##### Quick links
@@ -41,6 +40,5 @@ Can I now call myself a __computational embryologist?__ 🤔
 
 When I’m not breaking my head over (updating certain packages in my global environment and wondering) why my code didnt work out or reading papers with way too many acronyms, you’ll find me making digital art 🎨, cooking extravagant meals 🥟, or wandering through NYC.
 
-Let’s decode life, one cell at a time 🪄✨
 
 
