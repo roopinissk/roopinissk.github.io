@@ -1,12 +1,11 @@
 ---
 author: roopini
-title: "About"
+title: "👋 Hi, I’m Ruby (aka Roopini) — Welcome to my corner on the web!"
 description: "Roopini is so awesome, she needs an about page."
 date: 2023-08-01
 tags:
   - Intro
 ---
-👋 Hi, I’m Ruby (aka Roopini) — Welcome to my corner on the web!
 
 ##### Quick links
 
@@ -23,19 +22,19 @@ Join me for [bagel tuesdays](https://www.instagram.com/bageltuesdays/) where eve
 
 ### About me
 
-I’m currently a Masters student in Biomedical Informatics at NYU Grossman School of Medicine, where I’m diving deep into the world of data, cells, and everything in between. My journey started as an embryologist at the IVF lab, pipetting teeny-tiny embryos, watching blastocysts bloom, and constantly wondering why some embryos stop growing while others thrive. 
+I’m currently a Masters student in __Biomedical Informatics at NYU Grossman School of Medicine__, where I’m diving deep into the world of data, cells, and everything in between. My journey started as an embryologist at the IVF lab, pipetting teeny-tiny embryos, watching blastocysts bloom, and constantly wondering why some embryos stop growing while others thrive. 
 Spoiler: it’s still a mystery… but I’m determined to solve it 🕵️‍♀️✨ 
 
 
 Lately, I’ve been blending my clinical background with cool computational tools like single-cell sequencing, spatial transcriptomics and machine learning to uncover the hidden language of cells 🧬🌈.
 
-Can I now call myself a computational embryologist? 🤔
+Can I now call myself a __computational embryologist?__ 🤔
 
 ### 🎯 My current research interests:
 
-•	Using single cell and RNA sequencing to understand implantation failure in endometriosis (hello, cytokine chaos 🧨).
+•	Using single cell and RNA sequencing to __understand implantation failure in endometriosis__ (hello, cytokine chaos 🧨).
 
-•	Learning cell imaging to be able to visualize in the future what’s really going on inside embryos. 
+•	Learning __cell imaging__ to be able to visualize in the future what’s really going on inside embryos. 
 
 • Building models that can help embryologists and clinicians make better, data-driven decisions for patients thereby improving success rate of pregnancy in IVF.
 
