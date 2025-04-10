@@ -29,7 +29,7 @@ Lately, I’ve been blending my clinical background with cool computational tool
 
 Can I now call myself a __computational embryologist?__ 🤔
 
-### 🎯 My current research interests:
+### My current research interests:
 
 •	Using single cell and RNA sequencing to __understand implantation failure in endometriosis__ (hello, cytokine chaos 🧨).
 
