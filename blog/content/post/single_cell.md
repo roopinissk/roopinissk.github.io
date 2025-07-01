@@ -1,6 +1,6 @@
 ---
 title: Single cell analysis for dummies
-date: 2024-06-30
+date: 2025-06-30
 description: single cell tutorial
 authors: ["roopini"]
 tags:
