@@ -1,6 +1,6 @@
 ---
 title: Work-Life Balance, Time Management, Avoiding Burnout
-date: 2026-10-21
+date: 2028-10-21
 description: Focus, contribution, progress
 authors: ["roopini"]
 ---
