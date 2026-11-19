@@ -1,5 +1,5 @@
 ---
-title: Work-Life Balance, Time Management, Avoiding Burnout
+title: Shaping and writing manuscripts
 date: 2026-11-19
 description: writing, communication, contribution
 authors: ["roopini"]
